@@ -1,0 +1,23 @@
+{
+  "name": "express-ngm-ensina",
+  "version": "1.0.0",
+  "description": "Exemplo de express usando pipes and filters",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "postinstall": "node create-table.js",
+    "test": "npm test"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Filipe M. Silva",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "sqlite3": "^4.1.1"
+  }
+}
